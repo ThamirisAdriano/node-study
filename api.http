@@ -2,10 +2,28 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-    "name": "Thamiris Adriano",
-    "email": "thamiris@gmail.com"
+    "name": "Laura Adriano",
+    "email": "laura@gmail.com", 
+    "referrer": "c452c56b-5fad-46cd-b560-4fb0eb261e41"
 }
 
 ###
 
-GET http:localhost:3333/invites/thamiris123
+GET http://localhost:3333/invites/cfd7014e-47be-4bb4-b589-77c840497927
+
+###
+
+GET http://localhost:3333/subscribers/cfd7014e-47be-4bb4-b589-77c840497927/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/cfd7014e-47be-4bb4-b589-77c840497927/ranking/count
+
+###
+
+GET http://localhost:3333/subscribers/cfd7014e-47be-4bb4-b589-77c840497927/ranking/position
+
+###
+
+GET http://localhost:3333/ranking
+
